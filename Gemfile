@@ -46,6 +46,23 @@ group :development, :test do
   gem 'byebug'
   # Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
+	#hempful gems
+	gem 'better_errors' #improves error handling
+	gem 'binding_of_caller' #used by better errors
+
+	#testing frameworks
+	gem 'rspec-rails' #testing framework
+	gem 'factory_girl_rails' #use factories
+	gem 'capybara' #simulate browser activity
+	gem 'fakeweb'
+
+	#automated testing
+
+	gem 'guard' #execution of test suite
+	gem 'guard-rspec' #guard integration with rspec
+
+	#only install the rb-fsevent gem if on mac os x
+	gem 'rb-fsevent' #used from growl notifications
 
 end
 
