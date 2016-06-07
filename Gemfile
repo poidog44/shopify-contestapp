@@ -25,6 +25,7 @@ gem 'execjs'
 gem 'twitter-bootstrap-rails'
 gem 'bootstrap-sass'
 gem 'shopify_api'
+gem 'responders', '~> 2.0'
 
 group :production do
 
