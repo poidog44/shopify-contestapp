@@ -24,6 +24,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'execjs'
 gem 'twitter-bootstrap-rails'
 gem 'bootstrap-sass'
+gem 'shopify_api'
 
 group :production do
 
